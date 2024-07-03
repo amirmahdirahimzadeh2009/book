@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <input type="text" id="bookName" placeholder="نام کتاب" />
+      <input type="text" id="writer" placeholder="نویسنده" />
+      <input type="number" name="number" id="price" placeholder="قیمت کتاب" />
+      <select id="genre">
+        <option value="علمی">علمی</option>
+        <option value="تخیلی">تخیلی</option>
+        <option value="رمان">رمان</option>
+        <option value="طنز">طنز</option>
+      </select>
+      <input type="submit" class="submit-button" value="افزودن کتاب" />
+    </form>
+    <ul id="bookDisplay"></ul>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
